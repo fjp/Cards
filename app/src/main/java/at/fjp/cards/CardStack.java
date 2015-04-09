@@ -91,7 +91,7 @@ public class CardStack {
                 mCardStack = JASS_KARTEN;
                 fillCardMap(mCardStack);
                 mCardArray = new ArrayList<>(mCardCount);
-                mCardImageUrls = Images.imageUrls;
+                mCardImageUrls = Images.JassCardsImageUrls;
                 break;
             case POKER_KARTEN:
                 mCardStack = POKER_KARTEN;
